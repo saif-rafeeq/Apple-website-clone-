@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#pag1 {
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+
+#nav {
+
+    width: 100%;
+    height: 40px;
+    background-color: #454545;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    }
+
+#nav h5 {
+    color: white;
+    font-family: 18px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+#nav i {
+    color: white;
+    font-size: 15px;
+}
+
+#nav2 {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#nav2 p {
+    color: black;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+#nav2 a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+#center {
+    width: 100%;
+    height: 100vh;
+    background-image: url(hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+
+
+#center h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#center h4 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 400;
+}
+
+#center h5 {
+    font-size: 24px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#center h5 a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+#page2 h1 {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+#page2 h4 {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+}
+
+#page2 h6 {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+}
+
+#page2 h5 {
+    font-size: 24px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#page2 h5 a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page3 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+#page3 h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+#page3 h2 {
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+}
+
+#page3 h3 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+}
+
+#page3 h4 {
+    font-size: 24px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#page3 h4 a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+#part1 {
+    width: 50%;
+    height: 100vh;
+    background-image: url(iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: relative;
+}
+
+#page4 #part1 h1 {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 600;
+
+}
+
+#page4 #part1 h2 {
+    color: black;
+    font-size: 21px;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 300;
+}
+
+#page4 #part1 h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#page4 #part1 h3 a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+#part2 {
+    width: 50%;
+    height: 100vh;
+    background-image: url(promo_wwdc23__b68ptht3mro2_large.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: relative;
+}
+#page4 #part2 h1{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+    
+}
+#page4 #part2 h2{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 300;
+    text-align: center;
+}
+
+#page4 #part2 h3{
+    font-size: 20px;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#page4  #part2 h3 a{
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+#page5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#page5 #part1{
+    width: 50%;
+    height: 100vh;
+    background-image: url(promo_ipad__fioegapg12qi_large.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: relative;
+}
+
+
+#page5 #part1 h1 {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 600;
+
+}
+
+#page5 #part1 h2 {
+    color: black;
+    font-size: 21px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 400;
+}
+
+#page5 #part1 h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#page5 #part1 h3 a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page5 #part2{
+    width: 50%;
+    height: 100vh;
+    background-image: url(promo_mbp__ek7p477bkp6q_large.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: relative;
+}
+
+
+#page5 #part2 h1{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+    
+}
+#page5 #part2 h2{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 300;
+    text-align: center;
+}
+
+#page5 #part2 h3{
+    font-size: 20px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#page5  #part2 h3 a{
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#page6 #part1{
+    width: 50%;
+    height: 100vh;
+    background-image: url(promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: relative;
+}
+
+#page6 #part1 h1 {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+#page6 #part1 h2 {
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+}
+
+#page6 #part1 h3 {
+    color:black;
+    font-size: 25px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+}
+
+#page6 #part1 h4 {
+    font-size: 24px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#page6 #part1 h4 a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+#page6 #part2{
+    width: 50%;
+    height: 100vh;
+    background-image: url(promo_homepod_announce__bhviq9vjnlf6_large.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: relative;
+}
+
+
+#page6 #part2 h1{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+    
+}
+#page6 #part2 h2{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+    text-align: center;
+}
+
+#page6 #part2 h3{
+    font-size: 24px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#page6  #part2 h3 a{
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+#page7{
+    width: 100%;
+    height: 120vh;
+    background-color:rgb(231, 230, 230);
+}
+
+#page7 #text p{
+    color: rgb(122, 121, 121);
+    font-size: 13px;
+    font-weight: 200;
+    padding-top: 2%;
+    padding-right: 15%;
+    padding-left: 15%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+ hr{
+    width: 70%;
+    height: .1%;
+    background-color: rgb(158, 156, 156);
+    margin-left: 15%;
+    margin-top: 2%;
+}
+#page7{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#text1{
+    width: 74%;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+#page7 #text1 #line1{   
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+
+#page7 #text1 #line2{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+#page7 #text1 #line3{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+#page7 #text1 #line4{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+#page7 #text1 #line5{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+#line1 #a{
+    font-weight: 400;
+}
+#line1 #b{
+    font-weight: 400;
+}
+
+#line2 #c{
+    font-weight: 400;
+}
+
+#line2 #d{
+    font-weight: 400;
+}
+
+#line3 #e{
+    font-weight: 400;
+}
+
+#line4 #f{
+    font-weight: 400;
+}
+
+#line4 #g{
+    font-weight: 400;
+}
+
+#line4 #h{
+    font-weight: 400;
+}
+
+#line5 #i{
+    font-weight: 400;
+}
+
+#line5 #j{
+    font-weight: 400;
+}
+#foot{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+}
+#text1 #foot h1{
+    color: rgb(158, 156, 156);
+    font-size: 12px;
+    font-weight: 500
+}
+#text1 #foot a{
+    color: rgb(5, 179, 248);
+    
+}
+#foot span{
+    color: rgb(158, 156, 156);  
+}
+
+#foot hr{
+    width: 105%;
+    height: .1%;
+    background-color: rgb(158, 156, 156);
+    margin-left: 0%;
+    margin-top: 1%;
+}
+#foot h5{
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
